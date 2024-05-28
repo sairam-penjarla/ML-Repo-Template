@@ -1,0 +1,11 @@
+flow:
+  gather_data: True
+  prepare_data : True
+  run_training : True
+  inference:
+    flag: True
+    path: "path/to/data"
+
+paths:
+  data_path: "./data"
+  model_save_path: "./models/model.pkl"
